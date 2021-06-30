@@ -25,6 +25,7 @@ fixed = "1.0.0"
 rand_core = "0.5.1"
 cfg-if = "0.1.10"
 embedded-dma = "0.1.1"
+rtt-target = { version = "0.2", features = ["cortex-m"] }
 
 [dependencies.void]
 default-features = false
